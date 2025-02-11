@@ -1,6 +1,6 @@
 //Main.java
-//Name: Utkarsh Lakhani
-//PRN: 23070126064
+//Name: Naman Mittal
+//PRN: 23070126076
 //Batch: AIML -A3
 import java.util.* ;
 
