@@ -11,7 +11,6 @@ public class UserInput{
 
   //Creating method handleOperations
   public void handleOperation(int choice, Calculator calculator) {
-  
     switch (choice) {
       case 1 -> {
         System.out.println("Enter two numbers:");
@@ -19,7 +18,18 @@ public class UserInput{
         double b = scan.nextDouble();
         System.out.println("Result: " + calculator.add(a, b));
       }
-        
+      case 2 -> {
+        System.out.println("Enter two numbers:");
+        double a = scan.nextDouble();
+        double b = scan.nextDouble();
+        System.out.println("Result: " + calculator.subtract(a, b));
+      }
+      case 3 -> {
+        System.out.println("Enter two numbers:");
+        double a = scan.nextDouble();
+        double b = scan.nextDouble();
+        System.out.println("Result: " + calculator.multiply(a, b));
+      }
+
     }
   }
-}
